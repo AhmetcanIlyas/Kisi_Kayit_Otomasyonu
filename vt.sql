@@ -1,0 +1,60 @@
+-- MySQL Administrator dump 1.4
+--
+-- ------------------------------------------------------
+-- Server version	5.1.32-community
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+
+--
+-- Create schema vt
+--
+
+CREATE DATABASE IF NOT EXISTS vt;
+USE vt;
+
+--
+-- Definition of table `kisiler`
+--
+
+DROP TABLE IF EXISTS `kisiler`;
+CREATE TABLE `kisiler` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Ad` varchar(45) NOT NULL,
+  `Soyad` varchar(45) NOT NULL,
+  `Yas` int(10) unsigned NOT NULL,
+  `Cinsiyet` tinyint(3) unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `kisiler`
+--
+
+/*!40000 ALTER TABLE `kisiler` DISABLE KEYS */;
+INSERT INTO `kisiler` (`id`,`Ad`,`Soyad`,`Yas`,`Cinsiyet`) VALUES 
+ (1,'Harun Reşit','Zafer',27,1),
+ (2,'Derya','Deniz',24,0),
+ (3,'Emir','Aydın',33,1),
+ (4,'Levent','Denizeri',25,1),
+ (5,'Abbas','Yolcu',25,1);
+/*!40000 ALTER TABLE `kisiler` ENABLE KEYS */;
+
+
+
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
