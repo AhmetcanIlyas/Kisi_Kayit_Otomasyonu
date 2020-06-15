@@ -7,4 +7,6 @@ Kullanıcı Adı: Admin
 
 Şifre: 1234
 
+Veri tabanı dosyası "vt" adı ile mevcuttur.
+
 Örnek çalıştırma videosu mevcuttur.
