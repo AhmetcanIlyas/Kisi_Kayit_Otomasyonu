@@ -1,12 +1,13 @@
-# Kisi_Kayit_Otomasyonu
-Otomasyon Ödevim
+# Person Registration Automation
 
-Giriş ekranı için;
+This project is a person registration automation assignment developed for a university course.
 
-Kullanıcı Adı: Admin
+## Login Screen Information:
+- **Username:** Admin
+- **Password:** 1234
 
-Şifre: 1234
+## Database File:
+The database file is available with the name "vt".
 
-Veri tabanı dosyası "vt" adı ile mevcuttur.
-
-Örnek çalıştırma videosu mevcuttur.
+## Example Execution Video:
+An example execution video is available in the files.
